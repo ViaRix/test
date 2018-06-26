@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../css/order-style.css">
+	<title>Order</title>
+	<link rel="shortcut icon" href="../../img/favicon.png">
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="../../ism/css/my-slider.css"/>
+	<script src="../../ism/js/ism-2.2.min.js"></script>
+	<script src="../../js/prefixfree.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper"></div>
+	<div class="main-header">
+		<a href="../../index.html" class="logo-link"><img class="header-logo" src="../../img/Maftun_Pharm_Logo.png" width="300px" height="70px" alt="pic"></a>
+		<ul class="header-menu--wrapp">
+			<li class="header-menu"><a href="../../pages/articles/ru/amidramin.html" class="pages-links">Статьи</a></li>
+			<li class="header-menu"><a href="../../pages/order/order.html" class="pages-links">Заказать</a></li>
+			<li class="header-menu"><a href="../../pages/contacts/contacts.html" class="pages-links">Контакты</a></li>
+			<li class="header-menu"><a href="../../pages/aboutus/aboutus.html" class="pages-links">О нас</a></li>
+		</ul>    
+	</div>
+		<div class="ism-slider main-slider" data-transition_type="fade" data-radio_type="thumbnail" id="my-slider">
+				<ol>
+					<li>
+                        <img src="../../ism/image/slides/calvitalis.png" alt="pic">
+                      </li>
+                      <li>
+                        <img src="../../ism/image/slides/miksovit.png" alt="pic">
+                      </li>
+                      <li>
+                        <img src="../../ism/image/slides/amidramin.png" alt="pic">
+					  </li>
+					  <li>
+                        <img src="../../ism/image/slides/fermed.png" alt="pic">
+                      </li>
+				</ol>
+			</div>
+<div class="block2">
+	<div class="form-wrapp">
+		<form class="order-form">
+			<!-- Hidden Required Fields -->
+			<input class="order-input" type="hidden" name="project_name" value="Maftun_Pharm">
+			<input class="order-input" type="hidden" name="admin_email" value="maftunph@gmail.com">
+			<input class="order-input" type="hidden" name="form_subject" value="Заказ лекарств">
+			<!-- END Hidden Required Fields -->
+			<p class="order-header">Форма заказа</p>
+			<input class="order-input first-elem" type="text" name="Имя" placeholder=" Ваше имя" required><br>
+			<input class="order-input" type="text" name="E-mail" placeholder=" Ваш E-mail..." required><br>
+			<input class="order-input" type="text" name="Телефон сот" placeholder=" Ваш  сот. номер"><br>
+			<input class="order-input" type="text" name="Телефон дом" placeholder=" Ваш  дом. номер"><br>
+			<input class="order-input" type="text" name="Адрес" placeholder=" Ваш адрес"><br>
+			<input class="order-input" type="text" name="Заказ" placeholder=" Предмет заказа"><br>
+			<button class="send-button">Отправить</button>
+		</form>
+	</div>
+	<div class="order-text">Закажите помощь здоровью<br>прямо сейчас.</div>
+</div>
+<div class="picture">
+	<a href="../../pages/articles/ru/amidramin.html"><img width="225px" height="33px" src="../../img/Logo_amidramin.png" alt="pic1"></a>
+	<a href="../../pages/articles/ru/kalvitalis.html"><img width="225px" height="45px" src="../../img/Logo_calvitalis.png" alt="pic2"></a>
+	<a href="../../pages/articles/ru/mixavit.html"><img width="225px" height="45px" src="../../img/Logo_mixavit.png" alt="pic3"></a>
+	<a href="../../pages/articles/ru/fermed.html"><img width="225px" height="45px" src="../../img/FerMed.png" alt="pic3"></a>
+</div>
+<div class="bottom">
+	<ul>
+	<li><a href="../../pages/articles/ru/amidramin.html">Статьи</a></li>
+	<li><a href="../../pages/order/order.html">Заказать</a></li>
+	<li><a href="../../pages/contacts/contacts.html">Контакты</a></li>
+	<li><a href="../../pages/aboutus/aboutus.html">O нас</a></li>
+  </ul>
+  <p class="bottom-text">Услуги лицензированны, номер лицензии: 007079<br>
+	Телефон/Факс: 266-88-09, 266-88-10<br>
+	Maftun Pharm 2018 г.</p>
+</div>
+<script src="script.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* //////////////header///////////// */
+.wrapper{
+    background-color: white;
+}
+.main-header{
+    background-color: white;
+    margin: auto;
+    height: 90px;
+    width: 1100px;
+    /* min-width: 820px; */
+    position: relative;    
+    padding: 0;
+}
+.main-slider{
+    background-color: white;
+    width: 1100px;
+    /* min-width: 820px; */
+    height: 400px;
+    margin: auto;
+}
+.header-menu--wrapp{
+    display: flex;
+    justify-content: flex-end; 
+}
+.header-menu{
+    list-style-type: none;
+}
+.logo-link{
+    top: 15px;
+    position: absolute;
+    display: block;
+}
+.pages-links{
+    transition: background-color 0.5s ease;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 23px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    border-radius: 10px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(31, 214, 202);
+    color: black;
+    vertical-align: center;
+}
+.pages-links:hover{
+    transition: background-color 0.5s ease;
+    background-color:rgb(31, 214, 202);
+    color: white;
+}
+.pages-links:last-child{
+    margin-right: 20px;
+}
+.main-slider{
+    background-color: white;
+    width: 1100px;
+    /* min-width: 820px; */
+    margin: auto;
+}
+.description{
+    background-color: whitesmoke;
+    width: 1100px;
+    /* min-width: 820px; */
+    margin: auto;
+}
+.description h1{
+    font-family: Helios;
+    text-align: center;
+}
+.description p{
+    margin-top: 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 100px 0 100px;
+}
+.description p:last-child{
+    padding-bottom: 20px;
+}
+.photo-list{
+    font-family: 'Roboto';
+    margin: 20px 0 20px 100px;
+    list-style-type: decimal;
+}
+.click-pic{
+    font-size: 13px
+}
+.description-list{
+    width: 1000px;
+    height: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 0 20px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description-list li{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.zentiva{
+    margin-top: 40px;
+}
+/* ////////////bottom//////////// */
+.bottom{
+    height: 160px;
+    background-color: lightslategray;
+    width: 1100px;
+    margin: auto;
+}
+.bottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 22px;
+}
+.bottom li{
+    list-style-type: none;
+    height: 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    width: 100px;
+    font-family: Helios;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+}
+.bottom li a{
+    font-family: Helios;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.bottom li:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.bottom-text{
+    margin-top: 50px;
+    color: white;
+    font-family: Helios;
+    text-align: center;
+}
